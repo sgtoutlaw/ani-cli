@@ -594,7 +594,7 @@ open_selection
 # LOOP #
 ########
 
-while : ; do
+while [ -t 1 ] ; do
 	auto_play=0
 	unset menu
 	unset options
